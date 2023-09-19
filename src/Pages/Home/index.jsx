@@ -35,13 +35,11 @@ export function Home(){
     return(
         <Layout>
             <div className="flex gap-2">
-            <input className="rounded-lg text-center" onChange={(event)=>setSearch(event.target.value)} placeholder="Ingresa el nombre" ></input>
-            <BiSearchAlt2 className="mt-1"/>
-          </div>
+              <input className="rounded-lg text-center" onChange={(event)=>setSearch(event.target.value)} placeholder="Ingresa el nombre" ></input>
+              <BiSearchAlt2 className="mt-1"/>
+            </div>
             <div className=" grid grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 gap-4 w-full ml-5 max-w-screen-lg mt-4">
-            
-            
-            {renderView()} 
+              {renderView()} 
             </div>
             {det?<Detail />:null}
             {shop?<Checkout/>:null}

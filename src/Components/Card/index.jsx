@@ -32,7 +32,7 @@ export function Card(data){
                 {RenderIcon(data.data.id)}
             </figure>
             <p className="flex justify-between">
-                <span className="text-xs font-light ml-2">{data.data.title}</span>
+                <span className="text-xs lg:tex-sm xl  font-light ml-2">{data.data.title}</span>
                 <span className="text-lg font-medium">{data.data.price}</span>
             </p>
         </div>

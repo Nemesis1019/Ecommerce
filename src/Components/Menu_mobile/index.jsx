@@ -7,8 +7,8 @@ export function Menumo(){
     const rendermenu=(Menu)=>{
         if(Menu){
             return(
-                <aside className="  fixed z-10 top-16  px-3  left-0  bg-white border-solid border-2 border-black  w-1/6 h-1/4   ">
-           <ul className="flex flex-col  mt-4 ml-4">
+                <aside className="  fixed z-10 top-16  px-3  left-0  bg-white border-solid border-2 border-black  w-1/4 h-1/4   ">
+           <ul className="flex flex-col  mt-4 w-full">
             
             <li className="font-bold text-metal text-lm">
                 <NavLink to="/electronics"  onClick={()=>(setMenu(false))} className={({isActive})=>isActive? activeStyle:undefined}>
