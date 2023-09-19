@@ -1,0 +1,1 @@
+export const urlapi="https://fakestoreapi.com"
