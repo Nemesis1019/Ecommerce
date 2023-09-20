@@ -1,8 +1,6 @@
-# React + Vite
+Es un sitio web de ventas, sé utilizo la API de Fakestore para obtener los datos de los productos. Se
+desarrollo con React-Vite y se estilizo con TailwindCSS.La página tiene funcionalidades tales como
+mostrar la última orden, mostrar todas las ordenes realizadas, filtrar por categoría y nombre.Se
+favoreció el uso de funcionalidades de React tales como map,los Hooks y el contexto de React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Link de la app desplegada : https://ecommerce-kappa-bice.vercel.app/
