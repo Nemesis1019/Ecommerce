@@ -13,11 +13,14 @@ It is a sales website. The [Fakestore API](https://fakestoreapi.com/) was used t
  
 	https://github.com/Nemesis1019/Ecommerce.git
 
+2.- Go to the main project folder : :
 
-2.- Install project dependencies. :
+    cd Portfolio
+    
+3.- Install project dependencies. :
 
     npm i
-3 . Start local server :
+4 . Start local server :
 
     npm run dev
 
